@@ -6,7 +6,7 @@ namespace CoffeeMachine
     {
         public static string Espresso => "Эспрессо";
 
-        public static string Latte => "Лате";
+        public static string Latte => "Латте";
 
         public static string Cappucino => "Капучино";
 

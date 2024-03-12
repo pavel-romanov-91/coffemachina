@@ -1,5 +1,6 @@
 using System;
 using CoffeeMachine;
+using Microsoft.VisualBasic;
 
 namespace coffeemachine
 {
@@ -17,7 +18,9 @@ namespace coffeemachine
             this.beans = beans;
             this.cups = cups;
             
+            
         }
+        
         
         void PrintState()
         {
@@ -144,9 +147,6 @@ namespace coffeemachine
         public void Addition()
         {
             Console.Clear();
-
-
-
             Console.WriteLine("\nВыбирите действие ");
             Console.WriteLine("\n 1 добавить воды");
             Console.WriteLine("\n 2 добавить кофе");
@@ -155,11 +155,9 @@ namespace coffeemachine
             Console.WriteLine("\n 5 назад");
             switch (Console.ReadLine())
             {
-
                 case "5":
                     Start();
                     break;
-
                 case "1":
                     Console.WriteLine("Напишите, сколько мл воды вы хотите добавить:");
                     int water = Int32.Parse(Console.ReadLine());
@@ -208,8 +206,6 @@ namespace coffeemachine
                     Water(cups);
                 }
                     break;
-
-
                 default:
                     Console.WriteLine("Выбранный вариант не существует.");
                     break;
@@ -217,27 +213,31 @@ namespace coffeemachine
             
         }
         
-        Espresso espresso = new Espresso();
+        // Espresso espresso = new Espresso();
         public void Cooking()
         {
-           
-            
             Console.Clear();
             Console.WriteLine("\nВыбирите действие ");
             Console.WriteLine("\n 1 Espresso");
             Console.WriteLine("\n 2 Latte");
             Console.WriteLine("\n 3 Cappucino");
             Console.WriteLine("\n 5 назад");
-            
             switch (Console.ReadLine())
             {
-                
                 case "5":
                     Start();
                     break;
-
                 case "1":
+                    Console.ReadLine("Сколько чашек: ");
                     Console.WriteLine($"Ваш напиток: {Products.Espresso}");
+                    if (this.water - water > 400)
+                {
+                    Console.WriteLine("Вода переполнена");
+                }
+                else
+                {                    
+                    Water(water);
+                }
                     break;
                 case "2":
                     Console.WriteLine($"Ваш напиток: {Products.Latte}");
@@ -245,8 +245,6 @@ namespace coffeemachine
                 case "3":
                     Console.WriteLine($"Ваш напиток: {Products.Cappucino}");
                     break;
-
-
                 default:
                     Console.WriteLine("Выбранный вариант не существует.");
                     break;
@@ -257,9 +255,6 @@ namespace coffeemachine
         {
 
             Console.Clear();
-
-
-
 
             Console.WriteLine("\n 5 назад");
             switch (Console.ReadLine())
