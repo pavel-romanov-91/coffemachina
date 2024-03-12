@@ -1,7 +1,7 @@
 
 namespace coffeemachine
 {
-    interface ICoffee
+    class ICoffee
     {
         public CoffeeNames name { get; }
         public int water { get; }

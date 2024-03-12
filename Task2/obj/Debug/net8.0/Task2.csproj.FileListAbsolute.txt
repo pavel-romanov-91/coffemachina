@@ -27,17 +27,3 @@
 /home/dunice/Desktop/Task2/obj/Debug/net8.0/Task2.pdb
 /home/dunice/Desktop/Task2/obj/Debug/net8.0/Task2.genruntimeconfig.cache
 /home/dunice/Desktop/Task2/obj/Debug/net8.0/ref/Task2.dll
-C:\Rebase-master\Task2\bin\Debug\net8.0\Task2.exe
-C:\Rebase-master\Task2\bin\Debug\net8.0\Task2.deps.json
-C:\Rebase-master\Task2\bin\Debug\net8.0\Task2.runtimeconfig.json
-C:\Rebase-master\Task2\bin\Debug\net8.0\Task2.dll
-C:\Rebase-master\Task2\bin\Debug\net8.0\Task2.pdb
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.GeneratedMSBuildEditorConfig.editorconfig
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.AssemblyInfoInputs.cache
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.AssemblyInfo.cs
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.csproj.CoreCompileInputs.cache
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.dll
-C:\Rebase-master\Task2\obj\Debug\net8.0\refint\Task2.dll
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.pdb
-C:\Rebase-master\Task2\obj\Debug\net8.0\Task2.genruntimeconfig.cache
-C:\Rebase-master\Task2\obj\Debug\net8.0\ref\Task2.dll
